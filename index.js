@@ -17,7 +17,7 @@ const keySteam = "my_steam"
 const keyBili = "my_bili_bili"
 
 // 添加卡片
-widget.addSide(true,"","index.html",function () {
+widget.addSide("","index.html",function () {
     // 初始化数据库链接
     let db = database.newDb(dbArticle)
     let commentDb = database.newDb(dbComment)
