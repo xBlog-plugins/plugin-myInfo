@@ -38,7 +38,7 @@ widget.addSide("","index.html",function () {
 },true)
 
 // 添加设置信息
-widget.addSetting("个人信息设置",1,tools.getAdminPluginSetting([
+widget.addSetting("个人信息设置",1,[
     {title:"个人介绍",type: "input",key: keyIntroduce},
     {title:"个人头像",type: "upload",key: keyAvatar},
     {title:"卡片背景",type: "upload",key: keyBackground},
@@ -48,5 +48,5 @@ widget.addSetting("个人信息设置",1,tools.getAdminPluginSetting([
     {title:"知乎",type: "input",key: keyZhiHu},
     {title:"steam",type: "input",key: keySteam},
     {title:"B站",type: "input",key: keyBili}
-]))
+])
 
